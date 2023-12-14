@@ -1,0 +1,66 @@
+body{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("bgimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.add-item{
+    width: 100%;
+    text-align: center;
+}
+#newtask{
+    width: 45%;
+    height: 40px;
+    font-size: 1.3rem;
+}
+#add-btn{
+    width: 65px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+#tasklist{
+    width: 100vw;
+}
+#tasklist li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid darkgray;
+    border-radius: 12px;
+    width: 55%;
+    height: 2.5rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    background-color: darkgray;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+.btn-container button{
+    margin: 0.3rem 0.5rem;
+    border: 1px solid black;
+    padding: 0.3rem;
+    border-radius: 16px;
+    cursor: pointer;
+    height: 100%;
+    width: 65px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+    transition: all 0.3s ease;
+}
